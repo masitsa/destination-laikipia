@@ -1,0 +1,17 @@
+C:\Users\AppFactory\source\repos\DestinationLaikipia\DestinationLaikipia\DestinationLaikipia\bin\Debug\netstandard2.0\DestinationLaikipia.deps.json
+C:\Users\AppFactory\source\repos\DestinationLaikipia\DestinationLaikipia\DestinationLaikipia\bin\Debug\netstandard2.0\DestinationLaikipia.dll
+C:\Users\AppFactory\source\repos\DestinationLaikipia\DestinationLaikipia\DestinationLaikipia\bin\Debug\netstandard2.0\DestinationLaikipia.pdb
+C:\Users\AppFactory\source\repos\DestinationLaikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\DestinationLaikipia.csprojAssemblyReference.cache
+C:\Users\AppFactory\source\repos\DestinationLaikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\AppFactory\source\repos\DestinationLaikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\AppFactory\source\repos\DestinationLaikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\AppFactory\source\repos\DestinationLaikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\AppFactory\source\repos\DestinationLaikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\AppFactory\source\repos\DestinationLaikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\Users\AppFactory\source\repos\DestinationLaikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\AppFactory\source\repos\DestinationLaikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\DestinationLaikipia.csproj.CoreCompileInputs.cache
+C:\Users\AppFactory\source\repos\DestinationLaikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\DestinationLaikipia.AssemblyInfoInputs.cache
+C:\Users\AppFactory\source\repos\DestinationLaikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\DestinationLaikipia.AssemblyInfo.cs
+C:\Users\AppFactory\source\repos\DestinationLaikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\AppFactory\source\repos\DestinationLaikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\DestinationLaikipia.dll
+C:\Users\AppFactory\source\repos\DestinationLaikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\DestinationLaikipia.pdb
