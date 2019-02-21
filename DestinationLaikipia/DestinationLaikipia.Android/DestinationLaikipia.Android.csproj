@@ -66,6 +66,12 @@
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
+    <AndroidResource Include="Resources\drawable\money.webp" />
+    <AndroidResource Include="Resources\drawable\car_image.webp" />
+    <AndroidResource Include="Resources\drawable\people.webp" />
+    <AndroidResource Include="Resources\drawable\hotel.webp" />
+    <AndroidResource Include="Resources\drawable\rhino.webp" />
+    <AndroidResource Include="Resources\drawable\shopping_mall.webp" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Tabbar.axml" />

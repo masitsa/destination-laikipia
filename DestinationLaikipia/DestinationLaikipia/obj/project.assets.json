@@ -350,11 +350,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AppFactory\\source\\repos\\DestinationLaikipia\\DestinationLaikipia\\DestinationLaikipia\\DestinationLaikipia.csproj",
+      "projectUniqueName": "C:\\Users\\AppFactory\\source\\repos\\destination-laikipia\\DestinationLaikipia\\DestinationLaikipia\\DestinationLaikipia.csproj",
       "projectName": "DestinationLaikipia",
-      "projectPath": "C:\\Users\\AppFactory\\source\\repos\\DestinationLaikipia\\DestinationLaikipia\\DestinationLaikipia\\DestinationLaikipia.csproj",
+      "projectPath": "C:\\Users\\AppFactory\\source\\repos\\destination-laikipia\\DestinationLaikipia\\DestinationLaikipia\\DestinationLaikipia.csproj",
       "packagesPath": "C:\\Users\\AppFactory\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AppFactory\\source\\repos\\DestinationLaikipia\\DestinationLaikipia\\DestinationLaikipia\\obj\\",
+      "outputPath": "C:\\Users\\AppFactory\\source\\repos\\destination-laikipia\\DestinationLaikipia\\DestinationLaikipia\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

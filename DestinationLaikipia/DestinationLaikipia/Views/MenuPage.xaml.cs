@@ -18,8 +18,9 @@ namespace DestinationLaikipia.Views
 
             menuItems = new List<HomeMenuItem>
             {
-                new HomeMenuItem {Id = MenuItemType.Browse, Title="Browse" },
-                new HomeMenuItem {Id = MenuItemType.About, Title="About" }
+                new HomeMenuItem {Id = MenuItemType.Wildlife, Title="Wildlife" },
+                new HomeMenuItem {Id = MenuItemType.Accommodation, Title="Accommodation" },
+                new HomeMenuItem {Id = MenuItemType.Events, Title="Events" }
             };
 
             ListViewMenu.ItemsSource = menuItems;

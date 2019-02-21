@@ -5,9 +5,11 @@ using System.Text;
 namespace DestinationLaikipia.Models
 {
     public enum MenuItemType
-    {
-        Browse,
-        About
+    {   
+        Dashboard,
+        Wildlife,
+        Accommodation,
+        Events
     }
     public class HomeMenuItem
     {

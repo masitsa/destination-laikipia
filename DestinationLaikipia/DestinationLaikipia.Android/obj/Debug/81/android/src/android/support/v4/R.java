@@ -3318,9 +3318,9 @@ containing a value of this type.
         public static int notification_template_icon_low_bg=0x7f02012f;
         public static int notification_tile_bg=0x7f020129;
         public static int notify_panel_notification_icon_bg=0x7f02012a;
-        public static int tooltip_frame_dark=0x7f02012b;
-        public static int tooltip_frame_light=0x7f02012c;
-        public static int xamarin_logo=0x7f02012d;
+        public static int splashscreen=0x7f02012b;
+        public static int tooltip_frame_dark=0x7f02012c;
+        public static int tooltip_frame_light=0x7f02012d;
     }
     public static final class id {
         public static int ALT=0x7f090032;
@@ -3690,7 +3690,7 @@ containing a value of this type.
         public static int Animation_AppCompat_DropDownUp=0x7f0c00a7;
         public static int Animation_AppCompat_Tooltip=0x7f0c00a8;
         public static int Animation_Design_BottomSheetDialog=0x7f0c016e;
-        public static int AppCompatDialogStyle=0x7f0c0191;
+        public static int AppCompatDialogStyle=0x7f0c0192;
         public static int Base_AlertDialog_AppCompat=0x7f0c00a9;
         public static int Base_AlertDialog_AppCompat_Light=0x7f0c00aa;
         public static int Base_Animation_AppCompat_Dialog=0x7f0c00ab;
@@ -3858,10 +3858,10 @@ containing a value of this type.
         public static int CardView=0x7f0c000b;
         public static int CardView_Dark=0x7f0c000d;
         public static int CardView_Light=0x7f0c000e;
-        public static int MainTheme=0x7f0c018f;
+        public static int MainTheme=0x7f0c0190;
         /**  Base theme applied no matter what API 
          */
-        public static int MainTheme_Base=0x7f0c0190;
+        public static int MainTheme_Base=0x7f0c0191;
         public static int Platform_AppCompat=0x7f0c002d;
         public static int Platform_AppCompat_Light=0x7f0c002e;
         public static int Platform_ThemeOverlay_AppCompat=0x7f0c008e;
@@ -3992,6 +3992,9 @@ containing a value of this type.
         public static int Theme_MediaRouter_Light=0x7f0c0004;
         public static int Theme_MediaRouter_Light_DarkControlPanel=0x7f0c0005;
         public static int Theme_MediaRouter_LightControlPanel=0x7f0c0006;
+        /**  Splash Screen Theme 
+         */
+        public static int Theme_Splash=0x7f0c018f;
         public static int ThemeOverlay_AppCompat=0x7f0c0116;
         public static int ThemeOverlay_AppCompat_ActionBar=0x7f0c0117;
         public static int ThemeOverlay_AppCompat_Dark=0x7f0c0118;

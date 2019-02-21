@@ -17,7 +17,7 @@ namespace DestinationLaikipia.Views
 
             MasterBehavior = MasterBehavior.Popover;
 
-            MenuPages.Add((int)MenuItemType.Browse, (NavigationPage)Detail);
+            MenuPages.Add((int)MenuItemType.Dashboard, (NavigationPage)Detail);
         }
 
         public async Task NavigateFromMenu(int id)
@@ -26,11 +26,14 @@ namespace DestinationLaikipia.Views
             {
                 switch (id)
                 {
-                    case (int)MenuItemType.Browse:
-                        MenuPages.Add(id, new NavigationPage(new ItemsPage()));
+                    case (int)MenuItemType.Wildlife:
+                        MenuPages.Add(id, new NavigationPage(new Wildlife()));
                         break;
-                    case (int)MenuItemType.About:
-                        MenuPages.Add(id, new NavigationPage(new AboutPage()));
+                    case (int)MenuItemType.Accommodation:
+                        MenuPages.Add(id, new NavigationPage(new Accommodation()));
+                        break;
+                    case (int)MenuItemType.Events:
+                        MenuPages.Add(id, new NavigationPage(new Events()));
                         break;
                 }
             }
