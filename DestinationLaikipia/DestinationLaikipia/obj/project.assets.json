@@ -344,23 +344,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hp\\.nuget\\packages\\": {},
+    "C:\\Users\\AppFactory\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\source\\repos\\destination-laikipia\\DestinationLaikipia\\DestinationLaikipia\\DestinationLaikipia.csproj",
+      "projectUniqueName": "C:\\Users\\AppFactory\\source\\repos\\destination-laikipia\\DestinationLaikipia\\DestinationLaikipia\\DestinationLaikipia.csproj",
       "projectName": "DestinationLaikipia",
-      "projectPath": "C:\\Users\\hp\\source\\repos\\destination-laikipia\\DestinationLaikipia\\DestinationLaikipia\\DestinationLaikipia.csproj",
-      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\source\\repos\\destination-laikipia\\DestinationLaikipia\\DestinationLaikipia\\obj\\",
+      "projectPath": "C:\\Users\\AppFactory\\source\\repos\\destination-laikipia\\DestinationLaikipia\\DestinationLaikipia\\DestinationLaikipia.csproj",
+      "packagesPath": "C:\\Users\\AppFactory\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\AppFactory\\source\\repos\\destination-laikipia\\DestinationLaikipia\\DestinationLaikipia\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\AppFactory\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
