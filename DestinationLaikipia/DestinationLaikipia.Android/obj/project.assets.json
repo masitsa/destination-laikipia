@@ -795,20 +795,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AppFactory\\.nuget\\packages\\": {}
+    "C:\\Users\\hp\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AppFactory\\source\\repos\\destination-laikipia\\DestinationLaikipia\\DestinationLaikipia.Android\\DestinationLaikipia.Android.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\source\\repos\\destination-laikipia\\DestinationLaikipia\\DestinationLaikipia.Android\\DestinationLaikipia.Android.csproj",
       "projectName": "DestinationLaikipia.Android",
-      "projectPath": "C:\\Users\\AppFactory\\source\\repos\\destination-laikipia\\DestinationLaikipia\\DestinationLaikipia.Android\\DestinationLaikipia.Android.csproj",
-      "packagesPath": "C:\\Users\\AppFactory\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AppFactory\\source\\repos\\destination-laikipia\\DestinationLaikipia\\DestinationLaikipia.Android\\obj\\",
+      "projectPath": "C:\\Users\\hp\\source\\repos\\destination-laikipia\\DestinationLaikipia\\DestinationLaikipia.Android\\DestinationLaikipia.Android.csproj",
+      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hp\\source\\repos\\destination-laikipia\\DestinationLaikipia\\DestinationLaikipia.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\AppFactory\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -821,8 +821,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\AppFactory\\source\\repos\\destination-laikipia\\DestinationLaikipia\\DestinationLaikipia\\DestinationLaikipia.csproj": {
-              "projectPath": "C:\\Users\\AppFactory\\source\\repos\\destination-laikipia\\DestinationLaikipia\\DestinationLaikipia\\DestinationLaikipia.csproj"
+            "C:\\Users\\hp\\source\\repos\\destination-laikipia\\DestinationLaikipia\\DestinationLaikipia\\DestinationLaikipia.csproj": {
+              "projectPath": "C:\\Users\\hp\\source\\repos\\destination-laikipia\\DestinationLaikipia\\DestinationLaikipia\\DestinationLaikipia.csproj"
             }
           }
         }
