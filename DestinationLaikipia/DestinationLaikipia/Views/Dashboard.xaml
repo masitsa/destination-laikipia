@@ -4,8 +4,7 @@
              x:Class="DestinationLaikipia.Views.Dashboard">
     <ContentPage.Content>
         <StackLayout>
-            <SearchBar Placeholder="Search"/>
-            <Grid RowSpacing="30" ColumnSpacing="30">
+            <Grid Padding="0, 50, 0, 0" RowSpacing="20" ColumnSpacing="20">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>

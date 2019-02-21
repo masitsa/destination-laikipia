@@ -208,10 +208,6 @@ C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\Destin
 C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
-C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia.Android\obj\Debug\81\res\drawable\money.webp
-C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia.Android\obj\Debug\81\res\drawable\car_image.webp
-C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia.Android\obj\Debug\81\res\drawable\people.webp
-C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia.Android\obj\Debug\81\res\drawable\hotel.webp
-C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia.Android\obj\Debug\81\res\drawable\rhino.webp
-C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia.Android\obj\Debug\81\res\drawable\shopping_mall.webp
+C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\bin\Debug\netstandard2.0\DestinationLaikipia.dll
+C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia.Android\bin\Debug\DestinationLaikipia.dll.mdb
 C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia.Android\obj\Debug\81\linksrc\DestinationLaikipia.dll.mdb
