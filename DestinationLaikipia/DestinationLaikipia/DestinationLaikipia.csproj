@@ -26,9 +26,6 @@
     <EmbeddedResource Update="Views\Wildlife.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-<<<<<<< HEAD
 </ItemGroup>
-=======
-  </ItemGroup>
->>>>>>> 87366c067ed74b37e53f4aec83a0aa94e4814b61
+
 </Project>
