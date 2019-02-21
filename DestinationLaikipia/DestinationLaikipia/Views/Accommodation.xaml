@@ -4,9 +4,7 @@
              x:Class="DestinationLaikipia.Views.Accommodation">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms Accommodation!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Image x:Name="primary_accommodation_image" Aspect="AspectFill"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
