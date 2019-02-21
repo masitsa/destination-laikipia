@@ -218,6 +218,20 @@ C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\Destin
 <<<<<<< HEAD
 C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\bin\Debug\netstandard2.0\DestinationLaikipia.dll
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\bin\Debug\netstandard2.0\DestinationLaikipia.dll
+C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia.Android\bin\Debug\DestinationLaikipia.dll.mdb
+C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia.Android\obj\Debug\81\linksrc\DestinationLaikipia.dll.mdb
+=======
+C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia.Android\obj\Debug\81\res\drawable\money.webp
+C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia.Android\obj\Debug\81\res\drawable\car_image.webp
+C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia.Android\obj\Debug\81\res\drawable\people.webp
+C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia.Android\obj\Debug\81\res\drawable\hotel.webp
+C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia.Android\obj\Debug\81\res\drawable\rhino.webp
+C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia.Android\obj\Debug\81\res\drawable\shopping_mall.webp
+>>>>>>> 87366c067ed74b37e53f4aec83a0aa94e4814b61
 C:\Users\hp\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia.Android\bin\Debug\DestinationLaikipia.Android.dll
 C:\Users\hp\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia.Android\bin\Debug\DestinationLaikipia.Android.pdb
 C:\Users\hp\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia.Android\bin\Debug\com.companyname.apk
@@ -330,3 +344,4 @@ C:\Users\hp\source\repos\destination-laikipia\DestinationLaikipia\DestinationLai
 C:\Users\hp\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\hp\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
 >>>>>>> b0b1cbaa269e2eef31bf9bdecb6ba135a24c3d51
+>>>>>>> 33539c0cbcbfaf4ce1255cbcc6b3847ab685b26e
