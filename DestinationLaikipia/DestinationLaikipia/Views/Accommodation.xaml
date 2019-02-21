@@ -4,7 +4,11 @@
              x:Class="DestinationLaikipia.Views.Accommodation">
     <ContentPage.Content>
         <StackLayout>
+<<<<<<< HEAD
             
+=======
+            <Image x:Name="primary_accommodation_image" Aspect="AspectFill"/>
+>>>>>>> 33539c0cbcbfaf4ce1255cbcc6b3847ab685b26e
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

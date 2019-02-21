@@ -340,19 +340,6 @@
           "build/Xamarin.Forms.props": {},
           "build/Xamarin.Forms.targets": {}
         }
-      },
-      "DestinationLaikipia/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Xamarin.Forms": "3.4.0.1008975"
-        },
-        "compile": {
-          "bin/placeholder/DestinationLaikipia.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DestinationLaikipia.dll": {}
-        }
       }
     }
   },
@@ -632,7 +619,7 @@
       ]
     },
     "Xamarin.Forms/3.4.0.1008975": {
-      "sha512": "036/h8HtzRFgTrfhY57IeHoYRsPTO2XTA6uUFdmZzw2QR1sdszfofhI9HrCJTRx6fCzmjPg5Cxk5chYrjKarNw==",
+      "sha512": "tM9syeev45u92OFENGjq+Zw8WiEwLJFiXe317XpL9SY2RRk9sm2fc1lDVjzwz0da+5ZP5fi24NAPsPQdxBdMwQ==",
       "type": "package",
       "path": "xamarin.forms/3.4.0.1008975",
       "files": [
@@ -776,16 +763,10 @@
         "xamarin.forms.3.4.0.1008975.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
-    },
-    "DestinationLaikipia/1.0.0": {
-      "type": "project",
-      "path": "../DestinationLaikipia/DestinationLaikipia.csproj",
-      "msbuildProject": "../DestinationLaikipia/DestinationLaikipia.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v8.1": [
-      "DestinationLaikipia >= 1.0.0",
       "Xamarin.Android.Support.Design >= 27.0.2.1",
       "Xamarin.Android.Support.v4 >= 27.0.2.1",
       "Xamarin.Android.Support.v7.AppCompat >= 27.0.2.1",
@@ -820,11 +801,7 @@
       },
       "frameworks": {
         "monoandroid81": {
-          "projectReferences": {
-            "C:\\Users\\AppFactory\\source\\repos\\destination-laikipia\\DestinationLaikipia\\DestinationLaikipia\\DestinationLaikipia.csproj": {
-              "projectPath": "C:\\Users\\AppFactory\\source\\repos\\destination-laikipia\\DestinationLaikipia\\DestinationLaikipia\\DestinationLaikipia.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       }
     },
