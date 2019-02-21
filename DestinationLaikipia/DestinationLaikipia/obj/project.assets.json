@@ -47,7 +47,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "sha512": "a/iSwnRZb+LHFk49hQOyThh/ZNC3vsbZsF65XwQIb863qF6msmhdQtxGXFL28Ob2NsCz/drEj28BJd/YPpLRBg==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -191,7 +191,7 @@
       ]
     },
     "Xamarin.Forms/3.4.0.1008975": {
-      "sha512": "tM9syeev45u92OFENGjq+Zw8WiEwLJFiXe317XpL9SY2RRk9sm2fc1lDVjzwz0da+5ZP5fi24NAPsPQdxBdMwQ==",
+      "sha512": "036/h8HtzRFgTrfhY57IeHoYRsPTO2XTA6uUFdmZzw2QR1sdszfofhI9HrCJTRx6fCzmjPg5Cxk5chYrjKarNw==",
       "type": "package",
       "path": "xamarin.forms/3.4.0.1008975",
       "files": [
@@ -344,23 +344,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hp\\.nuget\\packages\\": {},
+    "C:\\Users\\AppFactory\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\source\\repos\\destination-laikipia\\DestinationLaikipia\\DestinationLaikipia\\DestinationLaikipia.csproj",
+      "projectUniqueName": "C:\\Users\\AppFactory\\source\\repos\\destination-laikipia\\DestinationLaikipia\\DestinationLaikipia\\DestinationLaikipia.csproj",
       "projectName": "DestinationLaikipia",
-      "projectPath": "C:\\Users\\hp\\source\\repos\\destination-laikipia\\DestinationLaikipia\\DestinationLaikipia\\DestinationLaikipia.csproj",
-      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\source\\repos\\destination-laikipia\\DestinationLaikipia\\DestinationLaikipia\\obj\\",
+      "projectPath": "C:\\Users\\AppFactory\\source\\repos\\destination-laikipia\\DestinationLaikipia\\DestinationLaikipia\\DestinationLaikipia.csproj",
+      "packagesPath": "C:\\Users\\AppFactory\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\AppFactory\\source\\repos\\destination-laikipia\\DestinationLaikipia\\DestinationLaikipia\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\AppFactory\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
