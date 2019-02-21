@@ -44,4 +44,11 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
+<<<<<<< HEAD
+=======
+
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+>>>>>>> b0b1cbaa269e2eef31bf9bdecb6ba135a24c3d51
 </Project>
