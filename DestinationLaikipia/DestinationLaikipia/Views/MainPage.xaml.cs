@@ -15,7 +15,6 @@ namespace DestinationLaikipia.Views
         {
             InitializeComponent();
 
-
             MenuPages.Add((int)MenuItemType.Dashboard, (NavigationPage)Detail);
         }
 

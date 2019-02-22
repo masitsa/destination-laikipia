@@ -13,12 +13,12 @@ namespace DestinationLaikipia.Views
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Wildlife : ContentPage
 	{
-        ItemListViewModel itemlistviewmodel;
+		ItemListViewModel itemlistviewmodel;
 		public Wildlife ()
 		{
 			InitializeComponent ();
-            itemlistviewmodel = new ItemListViewModel();
-            BindingContext = itemlistviewmodel;
-        }
+			itemlistviewmodel = new ItemListViewModel();
+			BindingContext = itemlistviewmodel;
+		}
 	}
 }
