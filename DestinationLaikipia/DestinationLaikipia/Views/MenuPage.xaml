@@ -2,16 +2,22 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DestinationLaikipia.Views.MenuPage"
+             BackgroundColor="#FFFFFF"
              Title="Menu">
-    <StackLayout VerticalOptions="FillAndExpand" >
-        <ListView x:Name="ListViewMenu"
-                    HasUnevenRows="True">
-            <ListView.ItemTemplate>
+    <StackLayout Orientation="Vertical">
+        <StackLayout>
+            <Image x:Name="thumbnail" Aspect="Fill"/>
+            <Label Text="Welcome to Laikipia County" FontSize="Default" Margin="55, 0, 0, 0"/>
+        </StackLayout>
+
+        <ListView x:Name="ListViewMenu" RowHeight="55" SeparatorVisibility="Default">
+            <ListView.ItemTemplate SelectedItemBackgroundColor="#FFFFFF">
                 <DataTemplate>
                     <ViewCell>
-                        <Grid Padding="10">
-                            <Label Text="{Binding Title}" FontSize="20"/>
-                        </Grid>
+                        <StackLayout VerticalOptions="FillAndExpand" Orientation="Horizontal" Padding="20, 4, 0, 10" Spacing="20">
+                            <Image Source="{Binding Icon}" WidthRequest="40" HeightRequest="40" VerticalOptions="Start"/>
+                            <Label Text="{Binding Title}" FontSize="Small" VerticalOptions="End" TextColor="Black"/>
+                        </StackLayout>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>

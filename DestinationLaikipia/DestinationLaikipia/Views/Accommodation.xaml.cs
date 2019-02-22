@@ -15,9 +15,9 @@ namespace DestinationLaikipia.Views
 		public Accommodation ()
 		{
 			InitializeComponent ();
-            primary_accommodation_image.Source = ImageSource.FromResource("DestinationLaikipia.Assets.Images.nanyuki_scenary.jpg");
+			primary_accommodation_image.Source = ImageSource.FromResource("DestinationLaikipia.Assets.Images.nanyuki_scenary.jpg");
 
 
-        }
+		}
 	}
 }

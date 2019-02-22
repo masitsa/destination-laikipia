@@ -10,11 +10,25 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\Images\car_image.webp" />
+    <None Remove="Assets\Images\hotel.webp" />
+    <None Remove="Assets\Images\money.webp" />
+    <None Remove="Assets\Images\mtkenyaice.webp" />
     <None Remove="Assets\Images\nanyuki_scenary.jpg" />
+    <None Remove="Assets\Images\people.webp" />
+    <None Remove="Assets\Images\rhino.webp" />
+    <None Remove="Assets\Images\shopping_mall.webp" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Assets\Images\car_image.webp" />
+    <EmbeddedResource Include="Assets\Images\hotel.webp" />
+    <EmbeddedResource Include="Assets\Images\money.webp" />
+    <EmbeddedResource Include="Assets\Images\mtkenyaice.webp" />
     <EmbeddedResource Include="Assets\Images\nanyuki_scenary.jpg" />
+    <EmbeddedResource Include="Assets\Images\people.webp" />
+    <EmbeddedResource Include="Assets\Images\rhino.webp" />
+    <EmbeddedResource Include="Assets\Images\shopping_mall.webp" />
   </ItemGroup>
 
   <ItemGroup>

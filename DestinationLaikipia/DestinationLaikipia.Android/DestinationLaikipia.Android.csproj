@@ -66,12 +66,12 @@
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
-    <None Include="Resources\drawable\car_image.webp" />
-    <None Include="Resources\drawable\hotel.webp" />
-    <None Include="Resources\drawable\money.webp" />
-    <None Include="Resources\drawable\people.webp" />
-    <None Include="Resources\drawable\rhino.webp" />
-    <None Include="Resources\drawable\shopping_mall.webp" />
+    <AndroidResource Include="Resources\drawable\car_image.webp" />
+    <AndroidResource Include="Resources\drawable\hotel.webp" />
+    <AndroidResource Include="Resources\drawable\money.webp" />
+    <AndroidResource Include="Resources\drawable\people.webp" />
+    <AndroidResource Include="Resources\drawable\rhino.webp" />
+    <AndroidResource Include="Resources\drawable\shopping_mall.webp" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Tabbar.axml" />
@@ -105,9 +105,6 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\splashscreen.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\nanyuki_scenary.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

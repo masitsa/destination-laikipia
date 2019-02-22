@@ -4,7 +4,7 @@
              x:Class="DestinationLaikipia.Views.Dashboard">
     <ContentPage.Content>
         <StackLayout>
-            <Grid Padding="0, 50, 0, 0" RowSpacing="20" ColumnSpacing="20">
+            <Grid Padding="0, 100, 0, 0" RowSpacing="20" ColumnSpacing="20">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
@@ -17,13 +17,13 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Image Source="rhino.webp" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="0" Grid.Column="0"/>
-                <Image Source="shopping_mall.webp" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="0" Grid.Column="1"/>
-                <Image Source="money.webp" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="1" Grid.Column="0"/>
-                <Image Source="hotel.webp" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="1" Grid.Column="1"/>
-                <Image Source="people.webp" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="0"/>
-                <Image Source="car_image.webp" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="1"/>
-
+                <Image x:Name="dashboard_wildlife_image" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="0" Grid.Column="0"/>
+                <Image x:Name="dashboard_shopping_center_image" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="0" Grid.Column="1"/>
+                <Image x:Name="dashboard_investments_image" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="1" Grid.Column="0"/>
+                <Image x:Name="dashboard_accommodation_image" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="1" Grid.Column="1"/>
+                <Image x:Name="dashboard_events_image" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="0"/>
+                <Image x:Name="dashboard_carhire_image" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="1"/>
+               
             </Grid>
         </StackLayout>
     </ContentPage.Content>

@@ -2963,9 +2963,6 @@ namespace DestinationLaikipia.Droid
 			// aapt resource value: 0x7F090118
 			public const int mr_vol_type_audiotrack_light = 2131296536;
 			
-			// aapt resource value: 0x7F010005
-			public const int nanyuki_scenary = 2130771973;
-			
 			// aapt resource value: 0x7F09005C
 			public const int navigation_empty_icon = 2131296348;
 			
@@ -3005,17 +3002,17 @@ namespace DestinationLaikipia.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
+			// aapt resource value: 0x7F010005
+			public const int people = 2130771973;
+			
 			// aapt resource value: 0x7F010006
-			public const int people = 2130771974;
+			public const int rhino = 2130771974;
 			
 			// aapt resource value: 0x7F010007
-			public const int rhino = 2130771975;
+			public const int shopping_mall = 2130771975;
 			
 			// aapt resource value: 0x7F010008
-			public const int shopping_mall = 2130771976;
-			
-			// aapt resource value: 0x7F010009
-			public const int splashscreen = 2130771977;
+			public const int splashscreen = 2130771976;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
