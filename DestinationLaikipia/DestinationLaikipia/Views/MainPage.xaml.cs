@@ -15,7 +15,6 @@ namespace DestinationLaikipia.Views
         {
             InitializeComponent();
 
-            MasterBehavior = MasterBehavior.Popover;
 
             MenuPages.Add((int)MenuItemType.Dashboard, (NavigationPage)Detail);
         }

@@ -16,11 +16,12 @@ namespace DestinationLaikipia.Views
         {
             InitializeComponent();
 
+            thumbnail.Source = ImageSource.FromResource("DestinationLaikipia.Assets.Images.mtkenyaice.webp");
             menuItems = new List<HomeMenuItem>
             {
-                new HomeMenuItem {Id = MenuItemType.Wildlife, Title="Wildlife" },
-                new HomeMenuItem {Id = MenuItemType.Accommodation, Title="Accommodation" },
-                new HomeMenuItem {Id = MenuItemType.Events, Title="Events" }
+                new HomeMenuItem {Id = MenuItemType.Wildlife, Title="Wildlife", Icon = "rhino.webp"},
+                new HomeMenuItem {Id = MenuItemType.Accommodation, Title="Accommodation", Icon = "hotel.webp" },
+                new HomeMenuItem {Id = MenuItemType.Events, Title="Events", Icon = "people.webp" }
             };
 
             ListViewMenu.ItemsSource = menuItems;
@@ -30,10 +31,13 @@ namespace DestinationLaikipia.Views
             {
                 if (e.SelectedItem == null)
                     return;
-
+                
                 var id = (int)((HomeMenuItem)e.SelectedItem).Id;
                 await RootPage.NavigateFromMenu(id);
             };
+
         }
+
+        
     }
 }
