@@ -1,17 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DestinationLaikipia.Views.Dashboard">
-    <ContentPage.Content>
+    <ContentPage>
         <StackLayout>
-            <Grid Padding="0, 100, 0, 0" RowSpacing="20" ColumnSpacing="20">
+            <Grid Padding="0, 80, 0, 0" RowSpacing="15" ColumnSpacing="25">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
@@ -19,12 +26,25 @@
                 </Grid.ColumnDefinitions>
                 <Image x:Name="dashboard_wildlife_image" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="0" Grid.Column="0"/>
                 <Image x:Name="dashboard_shopping_center_image" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="0" Grid.Column="1"/>
-                <Image x:Name="dashboard_investments_image" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="1" Grid.Column="0"/>
-                <Image x:Name="dashboard_accommodation_image" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="1" Grid.Column="1"/>
-                <Image x:Name="dashboard_events_image" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="0"/>
-                <Image x:Name="dashboard_carhire_image" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="1"/>
-               
+                <Image x:Name="dashboard_investments_image" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="0"/>
+                <Image x:Name="dashboard_accommodation_image" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="2" Grid.Column="1"/>
+                <Image x:Name="dashboard_events_image" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="0"/>
+                <Image x:Name="dashboard_carhire_image" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="4" Grid.Column="1"/>
+
+                <Label Text="Wildlife" HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="End" Grid.Row="1" Grid.Column="0"/>
+                <Label Text="Shopping Center" HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="End" Grid.Row="1" Grid.Column="1"/>
+                <Label Text="Investments" HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="End" Grid.Row="3" Grid.Column="0"/>
+                <Label Text="Accommodation" HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="End" Grid.Row="3" Grid.Column="1"/>
+                <Label Text="Events" HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="End" Grid.Row="5" Grid.Column="0"/>
+                <Label Text="Car Hire" HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="End" Grid.Row="5" Grid.Column="1"/>
+                
             </Grid>
         </StackLayout>
-    </ContentPage.Content>
-</ContentPage>
+    </ContentPage>
+</CarouselPage>

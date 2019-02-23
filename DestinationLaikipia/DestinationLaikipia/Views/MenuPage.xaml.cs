@@ -19,9 +19,9 @@ namespace DestinationLaikipia.Views
             thumbnail.Source = ImageSource.FromResource("DestinationLaikipia.Assets.Images.mtkenyaice.webp");
             menuItems = new List<HomeMenuItem>
             {
-                new HomeMenuItem {Id = MenuItemType.Wildlife, Title="Wildlife", Icon = "rhino.webp"},
-                new HomeMenuItem {Id = MenuItemType.Accommodation, Title="Accommodation", Icon = "hotel.webp" },
-                new HomeMenuItem {Id = MenuItemType.Events, Title="Events", Icon = "people.webp" }
+                new HomeMenuItem {Id = MenuItemType.Wildlife, Title="Wildlife", Icon = "ic_wildlife.png"},
+                new HomeMenuItem {Id = MenuItemType.Accommodation, Title="Accommodation", Icon = "ic_accommodation.png" },
+                new HomeMenuItem {Id = MenuItemType.Events, Title="Events", Icon = "ic_events.png" }
             };
 
             ListViewMenu.ItemsSource = menuItems;
