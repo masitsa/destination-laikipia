@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:local="clr-namespace:DestinationLaikipia.Views"
+             x:Class="DestinationLaikipia.Views.SingleViewEvents">
+
+    <local:OverviewEvents Title="Overview" Icon="ic_overview.png"/>
+    <local:LocationEvents Title="Location" Icon="ic_location.png"/>
+    
+</TabbedPage>

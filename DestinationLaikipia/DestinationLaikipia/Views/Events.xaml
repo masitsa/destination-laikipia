@@ -4,32 +4,73 @@
              x:Class="DestinationLaikipia.Views.Events">
     <ContentPage.Content>
         <StackLayout>
-            <Grid RowSpacing="30" ColumnSpacing="30">
+            <Grid Padding="5, 0, 5, 0">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Image Source="rhino.webp" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="0" Grid.Column="0"/>
-
+                <Image x:Name="events_front_image" Aspect="AspectFill" BackgroundColor="DarkViolet" HeightRequest="183" Grid.Row="0" Grid.Column="0"/>
+                <Label Text="Project launched" Grid.Row="0" Grid.Column="0" TextColor="White" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Grid>
-            <Grid Padding="0, 0, 0, 0" RowSpacing="30" ColumnSpacing="30">
+
+            <Grid RowSpacing="0" Padding="5, 0, 5, 0">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                
-                <Image Source="rhino.webp" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="0" Grid.Column="0"/>
-                <Image Source="car_image.webp" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="0" Grid.Column="1"/>
-                <Image Source="rhino.webp" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="1" Grid.Column="0"/>
-                <Image Source="car_image.webp" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="1" Grid.Column="1"/>
 
+                <Grid Padding="0, 0, 0, 5" RowSpacing="0" Grid.Row="0" Grid.Column="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height=".13*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image x:Name="events_one_image" Aspect="AspectFill" HeightRequest="70" Grid.Row="0" Grid.Column="0"/>
+                    <Label Text="Subsidizes announcement" Grid.Row="1" Grid.Column="0" TextColor="White" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" BackgroundColor="{StaticResource NavigationPrimary}"/>
+                </Grid>
+                <Grid Padding="0, 0, 0, 5" RowSpacing="0" Grid.Row="0" Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height=".13*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image x:Name="events_two_image" Aspect="AspectFill" HeightRequest="70" Grid.Row="0" Grid.Column="0"/>
+                    <Label Text="New by-laws" Grid.Row="1" Grid.Column="0" TextColor="White" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" BackgroundColor="{StaticResource NavigationPrimary}"/>
+                </Grid>
+                <Grid Padding="0, 0, 0, 5" RowSpacing="0" Grid.Row="1" Grid.Column="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height=".13*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image x:Name="events_three_image" Aspect="AspectFill" HeightRequest="70" Grid.Row="0" Grid.Column="0"/>
+                    <Label Text="Business regulatioins" Grid.Row="1" Grid.Column="0" TextColor="White" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" BackgroundColor="{StaticResource NavigationPrimary}"/>
+                </Grid>
+                <Grid Padding="0, 0, 0, 5" RowSpacing="0" Grid.Row="1" Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height=".13*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image x:Name="events_four_image" Aspect="AspectFill" HeightRequest="70" Grid.Row="0" Grid.Column="0"/>
+                    <Label Text="Tree planting" Grid.Row="1" Grid.Column="0" TextColor="White" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" BackgroundColor="{StaticResource NavigationPrimary}"/>
+                </Grid>
             </Grid>
+      
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
