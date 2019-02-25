@@ -1,5 +1,13 @@
 .vs
-DestinationLaikipia.csproj
+DestinationLaikipia/DestinationLaikipia/bin/
+DestinationLaikipia/DestinationLaikipia/obj/
+DestinationLaikipia/DestinationLaikipia/DestinationLaikipia.csproj
+DestinationLaikipia.Android.csproj.user
+DestinationLaikipia/DestinationLaikipia.Android/DestinationLaikipia.Android.csproj
+DestinationLaikipia/DestinationLaikipia.Android/DestinationLaikipia.Android.csproj.user
+DestinationLaikipia/DestinationLaikipia.Android/bin/
+DestinationLaikipia/DestinationLaikipia.Android/obj/
+
 
 # Created by https://www.gitignore.io/api/visualstudio,xamarinstudio
 # Edit at https://www.gitignore.io/?templates=visualstudio,xamarinstudio
