@@ -13,8 +13,8 @@
 # Edit at https://www.gitignore.io/?templates=visualstudio,xamarinstudio
 
 ### XamarinStudio ###
-bin/
-obj/
+./bin/
+./obj/
 *.userprefs
 .packages
 
