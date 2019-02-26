@@ -13,7 +13,6 @@ namespace DestinationLaikipia
         {
             InitializeComponent();
 
-
             MainPage = new MainPage();
         }
 
@@ -31,5 +30,13 @@ namespace DestinationLaikipia
         {
             // Handle when your app resumes
         }
+
+        public async void DoBack()
+        {
+            await MainPage.Navigation.PopAsync();
+        }
+
+        
+
     }
 }

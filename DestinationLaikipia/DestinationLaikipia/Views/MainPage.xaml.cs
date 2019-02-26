@@ -15,8 +15,11 @@ namespace DestinationLaikipia.Views
         {
             InitializeComponent();
 
-            MenuPages.Add((int)MenuItemType.Dashboard, (NavigationPage)Detail);
+            MasterBehavior = MasterBehavior.Popover;
+
+            MenuPages.Add((int)MenuItemType.Wildlife, (NavigationPage)Detail);
         }
+
 
         public async Task NavigateFromMenu(int id)
         {
@@ -47,6 +50,8 @@ namespace DestinationLaikipia.Views
 
                 IsPresented = false;
             }
+            
         }
+
     }
 }

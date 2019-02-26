@@ -94,5 +94,6 @@ namespace DestinationLaikipia.Views
 			};
 			events_four_image.GestureRecognizers.Add(events_four_tap);
 		}
+
 	}
 }
