@@ -3883,8 +3883,14 @@ namespace DestinationLaikipia.Droid
 			// aapt resource value: 0x7F040003
 			public const int icon_round = 2130968579;
 			
+			// aapt resource value: 0x7F040006
+			public const int ic_launcher = 2130968582;
+			
 			// aapt resource value: 0x7F040004
-			public const int launcher_foreground = 2130968580;
+			public const int ic_launcher_icon = 2130968580;
+			
+			// aapt resource value: 0x7F040005
+			public const int launcher_foreground = 2130968581;
 			
 			static Mipmap()
 			{
