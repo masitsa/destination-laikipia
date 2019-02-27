@@ -1,7 +1,6 @@
 C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\bin\Debug\netstandard2.0\DestinationLaikipia.deps.json
 C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\bin\Debug\netstandard2.0\DestinationLaikipia.dll
 C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\bin\Debug\netstandard2.0\DestinationLaikipia.pdb
-C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\DestinationLaikipia.csprojAssemblyReference.cache
 C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\Views\Accommodation.xaml.g.cs
 C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\Views\BookingHotel.xaml.g.cs
@@ -25,3 +24,4 @@ C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\Destin
 C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\DestinationLaikipia.dll
 C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\DestinationLaikipia.pdb
+C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\DestinationLaikipia.csprojAssemblyReference.cache

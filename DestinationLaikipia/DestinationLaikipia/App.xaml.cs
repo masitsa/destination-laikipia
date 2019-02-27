@@ -13,8 +13,10 @@ namespace DestinationLaikipia
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+            MainPage = new Accommodation();
         }
+
 
         protected override void OnStart()
         {

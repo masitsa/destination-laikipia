@@ -3,32 +3,24 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DestinationLaikipia.Views.Accommodation">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Spacing="5">
             <Image x:Name="primary_accommodation_image" Aspect="AspectFill"/>
             
-            <ListView HasUnevenRows="False"
+            <ListView 
+              x:Name="listAccommodations"
+              ItemsSource="{Binding Accommodations}"
+              HasUnevenRows="True"
               SeparatorVisibility="Default"
-              HorizontalOptions="FillAndExpand"
-              VerticalOptions="FillAndExpand">
+              >
 
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <Grid BackgroundColor="Black">
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="*"/>
-                                <RowDefinition Height="*"/>
-                                <RowDefinition Height="*"/>
-                                <RowDefinition Height="*"/>
-                            </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="*"/>
-                                <ColumnDefinition Width="*"/>
-                            </Grid.ColumnDefinitions>
-
-            
-
-
-                        </Grid>
+                        <!--<TextCell Text="{Binding HotelName}" TextColor="Black" Detail="{Binding HotelDescription}" DetailColor="Black" />-->
+                        <ImageCell Text="{Binding HotelName}" 
+                                   TextColor="Black" Detail="{Binding HotelDescription}"
+                                   DetailColor="Black" 
+                                   ImageSource="{Binding HotelImageUrl}"
+                                   />
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
