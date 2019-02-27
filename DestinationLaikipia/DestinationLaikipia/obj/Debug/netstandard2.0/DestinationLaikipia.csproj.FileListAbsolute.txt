@@ -21,10 +21,16 @@ C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\Destin
 C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\DestinationLaikipia.csproj.CoreCompileInputs.cache
 C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\DestinationLaikipia.AssemblyInfoInputs.cache
 C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\DestinationLaikipia.AssemblyInfo.cs
-C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\DestinationLaikipia.dll
 C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\DestinationLaikipia.pdb
 <<<<<<< HEAD
 C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\DestinationLaikipia.csprojAssemblyReference.cache
+C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\DestinationLaikipia.AssemblyMetadataInputs.cache
+C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\DestinationLaikipia.AssemblyMetadata.cs
+C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\XamlC.stamp
+=======
+<<<<<<< HEAD
+C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\DestinationLaikipia.csprojAssemblyReference.cache
 =======
 >>>>>>> 98e6c2eb80d3f1bb97839e8b76cbe6459dd5db7e
+>>>>>>> a265c1c297fd79c0f353fad79a99f837d5d26046

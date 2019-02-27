@@ -5,6 +5,33 @@
     <ContentPage.Content>
         <StackLayout>
             <Image x:Name="primary_accommodation_image" Aspect="AspectFill"/>
+            
+            <ListView HasUnevenRows="False"
+              SeparatorVisibility="Default"
+              HorizontalOptions="FillAndExpand"
+              VerticalOptions="FillAndExpand">
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid BackgroundColor="Black">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+            
+
+
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
