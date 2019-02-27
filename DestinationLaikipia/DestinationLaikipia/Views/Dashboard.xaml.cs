@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace DestinationLaikipia.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Dashboard : CarouselPage
+	public partial class Dashboard : ContentPage
 	{
 		public Dashboard ()
 		{
@@ -68,6 +68,5 @@ namespace DestinationLaikipia.Views
 			dashboard_events_image.GestureRecognizers.Add(events_tap);
 		}
 
-		
 	}
 }

@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> a265c1c297fd79c0f353fad79a99f837d5d26046
   <Jars>
     <Jar>C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia.Android\obj\Debug\81\lp\10\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia.Android\obj\Debug\81\lp\11\jl\bin\classes.jar</Jar>
@@ -36,6 +40,14 @@
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj\Debug\81\lp\15\jl\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
+<<<<<<< HEAD
+=======
+=======
+  <Jars />
+  <ResolvedResourceDirectories />
+  <ResolvedAssetDirectories />
+>>>>>>> 98e6c2eb80d3f1bb97839e8b76cbe6459dd5db7e
+>>>>>>> a265c1c297fd79c0f353fad79a99f837d5d26046
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
     <ResolvedResourceDirectoryStamp>C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia.Android\obj\Debug\81\lp\8.stamp</ResolvedResourceDirectoryStamp>
