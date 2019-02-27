@@ -13,7 +13,6 @@ namespace DestinationLaikipia
         {
             InitializeComponent();
 
-
             MainPage = new MainPage();
         }
 
