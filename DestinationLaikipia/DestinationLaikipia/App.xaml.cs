@@ -29,14 +29,7 @@ namespace DestinationLaikipia
         protected override void OnResume()
         {
             // Handle when your app resumes
-        }
-
-        public async void DoBack()
-        {
-            await MainPage.Navigation.PopAsync();
-        }
-
-        
+        }        
 
     }
 }
