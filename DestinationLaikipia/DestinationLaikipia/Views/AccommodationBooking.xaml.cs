@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace DestinationLaikipia.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class OverviewHotel : ContentPage
+	public partial class AccommodationBooking : ContentPage
 	{
-		public OverviewHotel ()
+		public AccommodationBooking ()
 		{
 			InitializeComponent ();
 		}

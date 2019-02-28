@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace DestinationLaikipia.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class SingleViewAccommodation : TabbedPage
-	{
-		public SingleViewAccommodation ()
+	public partial class AccommodationSingleView : TabbedPage
+    {
+		public AccommodationSingleView ()
 		{
 			InitializeComponent ();
 		}
