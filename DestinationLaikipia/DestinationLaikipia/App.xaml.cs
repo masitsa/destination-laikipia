@@ -13,8 +13,13 @@ namespace DestinationLaikipia
         {
             InitializeComponent();
 
+<<<<<<< HEAD
             MainPage = new MainPage();
             
+=======
+              //MainPage = new MainPage();
+            MainPage = new AccommodationSingleView();
+>>>>>>> b5430268314ef77aa0288526bb5b6c7d6e927a71
         }
        
 

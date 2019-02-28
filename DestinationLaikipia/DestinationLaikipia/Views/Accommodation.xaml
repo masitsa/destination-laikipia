@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="DestinationLaikipia.Views.Accommodation">
+             x:Class="DestinationLaikipia.Views.Accommodation"
+             >
     <ContentPage.Content>
         <StackLayout Spacing="5">
             <Image x:Name="primary_accommodation_image" Aspect="AspectFill"/>
-            
             <ListView 
               x:Name="listAccommodations"
               ItemsSource="{Binding Accommodations}"
@@ -20,10 +20,12 @@
                                    TextColor="Black" Detail="{Binding HotelDescription}"
                                    DetailColor="Black" 
                                    ImageSource="{Binding HotelImageUrl}"
-                                   />
+                         />
+                        
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+           
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

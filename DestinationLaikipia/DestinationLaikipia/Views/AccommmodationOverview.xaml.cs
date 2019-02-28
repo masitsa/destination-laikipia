@@ -10,11 +10,13 @@ using Xamarin.Forms.Xaml;
 namespace DestinationLaikipia.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class BookingHotel : ContentPage
+	public partial class AccommmodationOverview : ContentPage
 	{
-		public BookingHotel ()
+		public AccommmodationOverview ()
 		{
 			InitializeComponent ();
-		}
+
+            HotelImageUrl.Source = ImageSource.FromResource("DestinationLaikipia.Assets.Images.Le_Rustique.jpg");
+        }
 	}
 }

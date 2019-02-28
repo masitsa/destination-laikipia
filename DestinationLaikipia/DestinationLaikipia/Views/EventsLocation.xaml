@@ -2,8 +2,14 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+<<<<<<< HEAD:DestinationLaikipia/DestinationLaikipia/Views/EventsLocation.xaml
              x:Class="DestinationLaikipia.Views.EventsLocation">
     
     <maps:Map x:Name="locationsMap" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
     
+=======
+             x:Class="DestinationLaikipia.Views.LocationEvents">
+
+   
+>>>>>>> b5430268314ef77aa0288526bb5b6c7d6e927a71:DestinationLaikipia/DestinationLaikipia/Views/LocationEvents.xaml
 </ContentPage>
