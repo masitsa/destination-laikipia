@@ -7,6 +7,7 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using Plugin.Permissions;
+using Android.Content;
 
 namespace DestinationLaikipia.Droid
 {
@@ -37,5 +38,6 @@ namespace DestinationLaikipia.Droid
             PermissionsImplementation.Current.OnRequestPermissionsResult(requestCode, permissions, grantResults);
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
+
     }
 }

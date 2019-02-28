@@ -1,4 +1,5 @@
-﻿ using System;
+﻿using DestinationLaikipia.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,8 +16,8 @@ namespace DestinationLaikipia.Views
 		public Events ()
 		{
 			InitializeComponent ();
-
-			events_front_image.Source = ImageSource.FromResource("DestinationLaikipia.Assets.Images.front_image.jpg");
+            
+            events_front_image.Source = ImageSource.FromResource("DestinationLaikipia.Assets.Images.front_image.jpg");
 			events_one_image.Source = ImageSource.FromResource("DestinationLaikipia.Assets.Images.front_image.jpg");
 			events_two_image.Source = ImageSource.FromResource("DestinationLaikipia.Assets.Images.front_image.jpg");
 			events_three_image.Source = ImageSource.FromResource("DestinationLaikipia.Assets.Images.front_image.jpg");
@@ -38,7 +39,7 @@ namespace DestinationLaikipia.Views
 			{
 				// App.Current.MainPage = MyContentPage;
 				App.Current.MainPage = new NavigationPage();
-				App.Current.MainPage.Navigation.PushAsync(new SingleViewEvents());
+				App.Current.MainPage.Navigation.PushAsync(new EventsSingleView());
 			};
 			events_front_image.GestureRecognizers.Add(events_front_tap);
 		}
@@ -51,7 +52,7 @@ namespace DestinationLaikipia.Views
 			{
 				// App.Current.MainPage = MyContentPage;
 				App.Current.MainPage = new NavigationPage();
-				App.Current.MainPage.Navigation.PushAsync(new SingleViewEvents());
+				App.Current.MainPage.Navigation.PushAsync(new EventsSingleView());
 			};
 			events_one_image.GestureRecognizers.Add(events_one_tap);
 		}
@@ -64,7 +65,7 @@ namespace DestinationLaikipia.Views
 			{
 				// App.Current.MainPage = MyContentPage;
 				App.Current.MainPage = new NavigationPage();
-				App.Current.MainPage.Navigation.PushAsync(new SingleViewEvents());
+				App.Current.MainPage.Navigation.PushAsync(new EventsSingleView());
 			};
 			events_two_image.GestureRecognizers.Add(events_two_tap);
 		}
@@ -77,7 +78,7 @@ namespace DestinationLaikipia.Views
 			{
 				// App.Current.MainPage = MyContentPage;
 				App.Current.MainPage = new NavigationPage();
-				App.Current.MainPage.Navigation.PushAsync(new SingleViewEvents());
+				App.Current.MainPage.Navigation.PushAsync(new EventsSingleView());
 			};
 			events_three_image.GestureRecognizers.Add(events_three_tap);
 		}
@@ -90,10 +91,10 @@ namespace DestinationLaikipia.Views
 			{
 				// App.Current.MainPage = MyContentPage;
 				App.Current.MainPage = new NavigationPage();
-				App.Current.MainPage.Navigation.PushAsync(new SingleViewEvents());
+				App.Current.MainPage.Navigation.PushAsync(new EventsSingleView());
 			};
 			events_four_image.GestureRecognizers.Add(events_four_tap);
 		}
 
-	}
+    }
 }

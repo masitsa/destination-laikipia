@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -13,6 +14,7 @@
     <None Remove="Assets\Images\car_image.webp" />
     <None Remove="Assets\Images\front_image.jpg" />
     <None Remove="Assets\Images\hotel.webp" />
+    <None Remove="Assets\Images\Le_Rustique.jpg" />
     <None Remove="Assets\Images\money.webp" />
     <None Remove="Assets\Images\mtkenyaice.webp" />
     <None Remove="Assets\Images\nanyuki_scenary.jpg" />
@@ -25,6 +27,7 @@
     <EmbeddedResource Include="Assets\Images\car_image.webp" />
     <EmbeddedResource Include="Assets\Images\front_image.jpg" />
     <EmbeddedResource Include="Assets\Images\hotel.webp" />
+    <EmbeddedResource Include="Assets\Images\Le_Rustique.jpg" />
     <EmbeddedResource Include="Assets\Images\money.webp" />
     <EmbeddedResource Include="Assets\Images\mtkenyaice.webp" />
     <EmbeddedResource Include="Assets\Images\nanyuki_scenary.jpg" />
@@ -36,8 +39,15 @@
   <ItemGroup>
     <PackageReference Include="Plugin.Permissions" Version="3.0.0.12" />
     <PackageReference Include="Xam.Plugin.Geolocator" Version="4.5.0.6" />
+    <PackageReference Include="Xam.Plugins.Messaging" Version="5.1.0" />
     <PackageReference Include="Xamarin.Forms" Version="3.5.0.169047" />
     <PackageReference Include="Xamarin.Forms.Maps" Version="3.5.0.169047" />  
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Views\Accommodation.xaml.cs">
+      <DependentUpon>Accommodation.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -53,16 +63,19 @@
     <EmbeddedResource Update="Views\Events.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\LocationEvents.xaml">
+    <EmbeddedResource Update="Views\EventsLocation.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\EventsOverview.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\EventsSingleView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\LocationHotel.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\LocationWildlife.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Views\OverviewEvents.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\OverviewHotel.xaml">
@@ -72,9 +85,6 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\SingleViewAccommodation.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Views\SingleViewEvents.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\SingleViewWildlife.xaml">

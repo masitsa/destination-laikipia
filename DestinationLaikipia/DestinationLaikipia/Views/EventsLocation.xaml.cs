@@ -1,5 +1,4 @@
 ﻿using Plugin.Geolocator;
-using Plugin.Geolocator.Abstractions;
 using Plugin.Permissions;
 using Plugin.Permissions.Abstractions;
 using System;
@@ -13,14 +12,14 @@ using Xamarin.Forms.Xaml;
 
 namespace DestinationLaikipia.Views
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class LocationEvents : ContentPage
-	{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class EventsLocation : ContentPage
+    {
         private bool hasLocationPermission = false;
 
-        public LocationEvents()
-		{
-			InitializeComponent();
+        public EventsLocation()
+        {
+            InitializeComponent();
 
             GetPermissions();
         }
@@ -46,7 +45,7 @@ namespace DestinationLaikipia.Views
                 }
 
                 if (status == PermissionStatus.Granted)
-                { 
+                {
                     locationsMap.IsShowingUser = true;
                 }
                 else
@@ -70,8 +69,6 @@ namespace DestinationLaikipia.Views
                 await locator.StartListeningAsync(TimeSpan.Zero, 100);
             }
 
-            GetLocation();
-            
         }
 
         protected override void OnDisappearing()
@@ -79,24 +76,5 @@ namespace DestinationLaikipia.Views
             base.OnDisappearing();
             CrossGeolocator.Current.StopListeningAsync();
         }
-
-        private async void GetLocation()
-        {
-            if (hasLocationPermission)
-            {
-                var locator = CrossGeolocator.Current;
-                var position = await locator.GetPositionAsync();
-
-                MoveMap(position);
-            }
-        }
-
-        private void MoveMap(Position position)
-        {
-            var center = new Xamarin.Forms.Maps.Position(position.Latitude, position.Longitude);
-            var span = new Xamarin.Forms.Maps.MapSpan(center, 1, 1);
-            locationsMap.MoveToRegion(span);
-        }
-
     }
 }

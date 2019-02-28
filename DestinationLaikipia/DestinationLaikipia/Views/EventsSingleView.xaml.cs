@@ -10,13 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace DestinationLaikipia.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class SingleViewEvents : TabbedPage
+	public partial class EventsSingleView : TabbedPage
 	{
-		public SingleViewEvents ()
+		public EventsSingleView ()
 		{
 			InitializeComponent ();
-		}
-
-		
+        }
 	}
 }

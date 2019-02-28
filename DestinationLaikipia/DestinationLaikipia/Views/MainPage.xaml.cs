@@ -17,7 +17,8 @@ namespace DestinationLaikipia.Views
 
             MasterBehavior = MasterBehavior.Popover;
 
-            MenuPages.Add((int)MenuItemType.Wildlife, (NavigationPage)Detail);
+            MenuPages.Add((int)MenuItemType.MenuPages, (NavigationPage)Detail);
+
         }
 
 
@@ -27,6 +28,9 @@ namespace DestinationLaikipia.Views
             {
                 switch (id)
                 {
+                    case (int)MenuItemType.Dashboard:
+                        MenuPages.Add(id, new NavigationPage(new Dashboard()));
+                        break;
                     case (int)MenuItemType.Wildlife:
                         MenuPages.Add(id, new NavigationPage(new Wildlife()));
                         break;
