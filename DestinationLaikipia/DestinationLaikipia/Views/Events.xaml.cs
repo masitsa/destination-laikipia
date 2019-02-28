@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -94,5 +94,6 @@ namespace DestinationLaikipia.Views
 			};
 			events_four_image.GestureRecognizers.Add(events_four_tap);
 		}
+
 	}
 }

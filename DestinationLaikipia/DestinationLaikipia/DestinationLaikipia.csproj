@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -13,6 +14,7 @@
     <None Remove="Assets\Images\car_image.webp" />
     <None Remove="Assets\Images\front_image.jpg" />
     <None Remove="Assets\Images\hotel.webp" />
+    <None Remove="Assets\Images\Le_Rustique.jpg" />
     <None Remove="Assets\Images\money.webp" />
     <None Remove="Assets\Images\mtkenyaice.webp" />
     <None Remove="Assets\Images\nanyuki_scenary.jpg" />
@@ -25,6 +27,7 @@
     <EmbeddedResource Include="Assets\Images\car_image.webp" />
     <EmbeddedResource Include="Assets\Images\front_image.jpg" />
     <EmbeddedResource Include="Assets\Images\hotel.webp" />
+    <EmbeddedResource Include="Assets\Images\Le_Rustique.jpg" />
     <EmbeddedResource Include="Assets\Images\money.webp" />
     <EmbeddedResource Include="Assets\Images\mtkenyaice.webp" />
     <EmbeddedResource Include="Assets\Images\nanyuki_scenary.jpg" />
@@ -34,7 +37,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />  
+    <PackageReference Include="Xamarin.Forms" Version="3.5.0.169047" />  
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Views\Accommodation.xaml.cs">
+      <DependentUpon>Accommodation.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -81,5 +90,59 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
 </ItemGroup>
+
+  <ItemGroup>
+    <None Update="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\Accommodation.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\BookingHotel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\Dashboard.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\Events.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\LocationEvents.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\LocationHotel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\LocationWildlife.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\MenuPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\OverviewEvents.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\OverviewHotel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\OverviewWildlife.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\SingleViewAccommodation.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\SingleViewEvents.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\SingleViewWildlife.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\Wildlife.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+  </ItemGroup>
 
 </Project>

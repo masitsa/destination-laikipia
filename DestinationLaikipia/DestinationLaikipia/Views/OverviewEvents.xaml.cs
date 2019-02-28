@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DestinationLaikipia.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,9 @@ namespace DestinationLaikipia.Views
 		public OverviewEvents ()
 		{
 			InitializeComponent ();
+			BindingContext = new OverviewEventsViewModel();
+
+			events_front_detail_image.Source = ImageSource.FromResource("DestinationLaikipia.Assets.Images.front_image.jpg");
 		}
 	}
 }

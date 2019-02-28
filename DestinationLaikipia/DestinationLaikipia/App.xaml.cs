@@ -13,9 +13,10 @@ namespace DestinationLaikipia
         {
             InitializeComponent();
 
-
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+            MainPage = new Accommodation();
         }
+
 
         protected override void OnStart()
         {
@@ -31,5 +32,13 @@ namespace DestinationLaikipia
         {
             // Handle when your app resumes
         }
+
+        public async void DoBack()
+        {
+            await MainPage.Navigation.PopAsync();
+        }
+
+        
+
     }
 }
