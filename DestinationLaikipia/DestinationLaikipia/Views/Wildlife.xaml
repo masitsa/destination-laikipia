@@ -4,121 +4,26 @@
              xmlns:views="clr-namespace:DestinationLaikipia.Views"
              x:Class=" DestinationLaikipia.Views.Wildlife">
     <ContentPage.Content>
-        <StackLayout>
-            <ListView ItemsSource ="{Binding Posts}">
+        <StackLayout Spacing="10" Padding="10">
+            <ListView 
+              x:Name="Wildlifelist"
+              ItemsSource="{Binding wildlifes}"
+              HasUnevenRows="True"
+              SeparatorVisibility="Default"
+              >
+
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ViewCell>
-                            <StackLayout>
-                                <Image Source=""
-                                       WidthRequest="50" 
-                                       HeightRequest="50"  />
-                                <Label Text="Ol Pejeta"
-                                   VerticalTextAlignment="Center"
-                                   FontSize="Medium"
-                                       FontAttributes="Bold"/>
-                                <Label Text=""
-                                       FontSize="Small"/>
-                            </StackLayout>
-                            
-
-                        </ViewCell>
-                        
-                        
+                        <!--<TextCell Text="{Binding HotelName}" TextColor="Black" Detail="{Binding HotelDescription}" DetailColor="Black" />-->
+                        <ImageCell Text="{Binding WildlifeName }"
+                                   Detail= "{Binding WildlifeDetails}"
+                                   DetailColor="Black" 
+                                   ImageSource="{Binding WildlifeImage}"
+                                   />
                     </DataTemplate>
-                    
                 </ListView.ItemTemplate>
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <StackLayout>
-                                <Image Source=""
-                                       WidthRequest="50" 
-                                       HeightRequest="50"  />
-                                <Label Text="Ol Pejeta"
-                                   VerticalTextAlignment="Center"
-                                   FontSize="Medium"
-                                       FontAttributes="Bold"/>
-                                <Label Text=""
-                                       FontSize="Small"/>
-                            </StackLayout>
-
-
-                        </ViewCell>
-
-
-                    </DataTemplate>
-
-                </ListView.ItemTemplate>
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <StackLayout>
-                                <Image Source=""
-                                       WidthRequest="50" 
-                                       HeightRequest="50"  />
-                                <Label Text="Ol Pejeta"
-                                   VerticalTextAlignment="Center"
-                                   FontSize="Medium"
-                                       FontAttributes="Bold"/>
-                                <Label Text=""
-                                       FontSize="Small"/>
-                            </StackLayout>
-
-
-                        </ViewCell>
-
-
-                    </DataTemplate>
-
-                </ListView.ItemTemplate>
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <StackLayout>
-                                <Image Source=""
-                                       WidthRequest="50" 
-                                       HeightRequest="50"  />
-                                <Label Text="Ol Pejeta"
-                                   VerticalTextAlignment="Center"
-                                   FontSize="Medium"
-                                       FontAttributes="Bold"/>
-                                <Label Text=""
-                                       FontSize="Small"/>
-                            </StackLayout>
-
-
-                        </ViewCell>
-
-
-                    </DataTemplate>
-
-                </ListView.ItemTemplate>
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <StackLayout>
-                                <Image Source=""
-                                       WidthRequest="50" 
-                                       HeightRequest="50"  />
-                                <Label Text="Ol Pejeta"
-                                   VerticalTextAlignment="Center"
-                                   FontSize="Medium"
-                                       FontAttributes="Bold"/>
-                                <Label Text=""
-                                       FontSize="Small"/>
-                            </StackLayout>
-
-
-                        </ViewCell>
-
-
-                    </DataTemplate>
-
-                </ListView.ItemTemplate>
-
-
             </ListView>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

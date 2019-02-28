@@ -1,4 +1,5 @@
-﻿using DestinationLaikipia.ViewModels;
+﻿using DestinationLaikipia.Models;
+using DestinationLaikipia.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,12 +14,16 @@ namespace DestinationLaikipia.Views
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Wildlife : ContentPage
 	{
-		ItemListViewModel itemlistviewmodel;
-		public Wildlife ()
+		WildlifeViewModel wildlifeview;
+
+        public static List<Models.Wildlife> ItemsSource { get; set; }
+
+        public Wildlife ()
 		{
 			InitializeComponent ();
-			itemlistviewmodel = new ItemListViewModel();
-			BindingContext = itemlistviewmodel;
+            wildlifeview = new WildlifeViewModel();
+            Wildlife.ItemsSource = wildlifeview.wildlifes;
+			BindingContext = wildlifeview;
 		}
 	}
 }
