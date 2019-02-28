@@ -25,13 +25,6 @@ C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\Destin
 C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\DestinationLaikipia.dll
 C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\DestinationLaikipia.pdb
 <<<<<<< HEAD
-C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\Views\LocationEvents.xaml.g.cs
-C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\Views\LocationWildlife.xaml.g.cs
-C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\Views\OverviewEvents.xaml.g.cs
-C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\Views\OverviewWildlife.xaml.g.cs
-C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\Views\SingleViewAccommodation.xaml.g.cs
-C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\Views\SingleViewEvents.xaml.g.cs
-C:\Users\AppFactory\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\obj\Debug\netstandard2.0\Views\SingleViewWildlife.xaml.g.cs
 C:\Users\hp\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\bin\Debug\netstandard2.0\DestinationLaikipia.deps.json
 C:\Users\hp\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\bin\Debug\netstandard2.0\DestinationLaikipia.dll
 C:\Users\hp\source\repos\destination-laikipia\DestinationLaikipia\DestinationLaikipia\bin\Debug\netstandard2.0\DestinationLaikipia.pdb
