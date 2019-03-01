@@ -4465,26 +4465,69 @@ namespace DestinationLaikipia.Droid
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
+<<<<<<< HEAD
 			// aapt resource value: 0x7f02015d
 			public const int avd_hide_password_1 = 2130837853;
+=======
+<<<<<<< HEAD
+			// aapt resource value: 0x7f02015e
+			public const int avd_hide_password_1 = 2130837854;
+			
+			// aapt resource value: 0x7f02015f
+			public const int avd_hide_password_2 = 2130837855;
+			
+			// aapt resource value: 0x7f020160
+			public const int avd_hide_password_3 = 2130837856;
+=======
+			// aapt resource value: 0x7f02013f
+			public const int mr_media_play_dark = 2130837823;
+>>>>>>> 930b97a8a0e21673269a8f8131e9512373b624f6
 			
 			// aapt resource value: 0x7f02015e
 			public const int avd_hide_password_2 = 2130837854;
 			
+<<<<<<< HEAD
 			// aapt resource value: 0x7f02015f
 			public const int avd_hide_password_3 = 2130837855;
+=======
+			// aapt resource value: 0x7f020141
+			public const int mr_media_stop_dark = 2130837825;
+>>>>>>> 467092fd227d1b26c96c55a2eb50534bbeaed909
+>>>>>>> a1669669bcf2070f0b96a0dcf2956550c345343b
+>>>>>>> 930b97a8a0e21673269a8f8131e9512373b624f6
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
+<<<<<<< HEAD
 			// aapt resource value: 0x7f020160
 			public const int avd_show_password_1 = 2130837856;
+=======
+<<<<<<< HEAD
+			// aapt resource value: 0x7f020161
+			public const int avd_show_password_1 = 2130837857;
+			
+			// aapt resource value: 0x7f020162
+			public const int avd_show_password_2 = 2130837858;
+			
+			// aapt resource value: 0x7f020163
+			public const int avd_show_password_3 = 2130837859;
+=======
+			// aapt resource value: 0x7f020143
+			public const int mr_vol_type_audiotrack_dark = 2130837827;
+>>>>>>> 930b97a8a0e21673269a8f8131e9512373b624f6
 			
 			// aapt resource value: 0x7f020161
 			public const int avd_show_password_2 = 2130837857;
 			
+<<<<<<< HEAD
 			// aapt resource value: 0x7f020162
 			public const int avd_show_password_3 = 2130837858;
+=======
+			// aapt resource value: 0x7f020145
+			public const int navigation_empty_icon = 2130837829;
+>>>>>>> a1669669bcf2070f0b96a0dcf2956550c345343b
+>>>>>>> 930b97a8a0e21673269a8f8131e9512373b624f6
 			
 			// aapt resource value: 0x7f020055
 			public const int car_image = 2130837589;
@@ -5243,7 +5286,21 @@ namespace DestinationLaikipia.Droid
 			public const int notification_template_icon_low_bg = 2130837852;
 			
 			// aapt resource value: 0x7f02014f
+<<<<<<< HEAD
 			public const int notification_tile_bg = 2130837839;
+=======
+<<<<<<< HEAD
+			public const int notification_icon_background = 2130837839;
+			
+			// aapt resource value: 0x7f02015c
+			public const int notification_template_icon_bg = 2130837852;
+			
+			// aapt resource value: 0x7f02015d
+			public const int notification_template_icon_low_bg = 2130837853;
+=======
+			public const int rhino = 2130837839;
+>>>>>>> a1669669bcf2070f0b96a0dcf2956550c345343b
+>>>>>>> 930b97a8a0e21673269a8f8131e9512373b624f6
 			
 			// aapt resource value: 0x7f020150
 			public const int notify_panel_notification_icon_bg = 2130837840;
@@ -5261,6 +5318,7 @@ namespace DestinationLaikipia.Droid
 			public const int shopping_mall = 2130837844;
 			
 			// aapt resource value: 0x7f020155
+<<<<<<< HEAD
 			public const int solio = 2130837845;
 			
 			// aapt resource value: 0x7f020156
@@ -5277,6 +5335,34 @@ namespace DestinationLaikipia.Droid
 			
 			// aapt resource value: 0x7f02015a
 			public const int tooltip_frame_light = 2130837850;
+=======
+<<<<<<< HEAD
+			public const int room1 = 2130837845;
+			
+			// aapt resource value: 0x7f020156
+			public const int room2 = 2130837846;
+			
+			// aapt resource value: 0x7f020157
+			public const int room3 = 2130837847;
+			
+			// aapt resource value: 0x7f020158
+			public const int shopping_mall = 2130837848;
+			
+			// aapt resource value: 0x7f020159
+			public const int splashscreen = 2130837849;
+			
+			// aapt resource value: 0x7f02015a
+			public const int tooltip_frame_dark = 2130837850;
+			
+			// aapt resource value: 0x7f02015b
+			public const int tooltip_frame_light = 2130837851;
+=======
+			public const int tooltip_frame_dark = 2130837845;
+			
+			// aapt resource value: 0x7f020156
+			public const int tooltip_frame_light = 2130837846;
+>>>>>>> a1669669bcf2070f0b96a0dcf2956550c345343b
+>>>>>>> 930b97a8a0e21673269a8f8131e9512373b624f6
 			
 			static Drawable()
 			{
