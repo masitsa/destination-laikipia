@@ -17,8 +17,14 @@ namespace DestinationLaikipia.Views
 
             MasterBehavior = MasterBehavior.Popover;
 
+<<<<<<< HEAD
             MenuPages.Add((int)MenuItemType.MainPage, (NavigationPage)Detail);
 
+=======
+
+            MenuPages.Add((int)MenuItemType.Wildlife, (NavigationPage)Detail);
+            
+>>>>>>> 4bafbd0a48a88f5e5e500b97eeb10d47cd19d050
         }
 
 
