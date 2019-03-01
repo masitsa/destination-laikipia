@@ -13,7 +13,7 @@ namespace DestinationLaikipia.Models
 
         public List<Wildlife> Getwildlife()
         {
-            List<Wildlife> wildlifes = new List<Wildlife>()
+            List<Wildlife> Wildlifes = new List<Wildlife>()
         {
             new Wildlife()
             {
@@ -51,7 +51,7 @@ namespace DestinationLaikipia.Models
 
             }
         };
-            return wildlifes;
+            return Wildlifes;
         }
     }
    

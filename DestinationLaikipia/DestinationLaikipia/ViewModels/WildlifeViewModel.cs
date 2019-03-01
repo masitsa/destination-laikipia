@@ -8,11 +8,11 @@ namespace DestinationLaikipia.ViewModels
 {
    public class WildlifeViewModel 
     {
-        public List<Wildlife> wildlifes { get; set; }
+        public List<Wildlife> Wildlifes { get; set; }
 
         public WildlifeViewModel()
         {
-            wildlifes = new Wildlife().Getwildlife();
+            Wildlifes = new Wildlife().Getwildlife();
             
         }
     }

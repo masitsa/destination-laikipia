@@ -7,7 +7,7 @@
         <StackLayout Spacing="10" Padding="10">
             <ListView 
               x:Name="Wildlifelist"
-              ItemsSource="{Binding wildlifes}"
+              ItemsSource="{Binding Wildlifes}"
               HasUnevenRows="True"
               SeparatorVisibility="Default"
               >

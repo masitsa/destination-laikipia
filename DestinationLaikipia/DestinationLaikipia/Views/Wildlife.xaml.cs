@@ -22,7 +22,7 @@ namespace DestinationLaikipia.Views
 		{
 			InitializeComponent ();
             wildlifeview = new WildlifeViewModel();
-            Wildlife.ItemsSource = wildlifeview.wildlifes;
+            Wildlife.ItemsSource = wildlifeview.Wildlifes;
 			BindingContext = wildlifeview;
 		}
 	}
