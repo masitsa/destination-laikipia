@@ -12,9 +12,15 @@ namespace DestinationLaikipia.Views
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class OverviewWildlife : ContentPage
 	{
-		public OverviewWildlife ()
+         OverviewWildlife singlesiteview;
+
+        public OverviewWildlife ()
 		{
 			InitializeComponent ();
-		}
-	}
+            singlesiteview = new OverviewWildlife();
+            BindingContext = singlesiteview;
+           
+        }
+    }
+	
 }

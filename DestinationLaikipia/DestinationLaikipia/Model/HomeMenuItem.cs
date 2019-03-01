@@ -6,6 +6,7 @@ namespace DestinationLaikipia.Models
 {
     public enum MenuItemType
     {   
+        MenuPages,
         Dashboard,
         Wildlife,
         Accommodation,

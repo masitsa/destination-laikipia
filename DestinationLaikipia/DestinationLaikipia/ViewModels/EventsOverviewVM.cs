@@ -7,12 +7,11 @@ using Xamarin.Forms;
 
 namespace DestinationLaikipia.ViewModels
 {
-    public class OverviewEventsViewModel
+    public class EventsOverviewVM
     {
-
         public Image EventImageVM { get; set; }
 
-        public string Event_ContentVM  { get; set; }
+        public string Event_ContentVM { get; set; }
 
         public string Event_TitleVM { get; set; }
 
@@ -22,7 +21,7 @@ namespace DestinationLaikipia.ViewModels
 
         public DateTime DateVM { get; set; }
 
-        public ObservableCollection<Events> Employees
+        public ObservableCollection<Event> Employees
         {
             get;
             set;
