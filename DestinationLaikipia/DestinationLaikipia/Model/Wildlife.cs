@@ -26,7 +26,7 @@ namespace DestinationLaikipia.Models
             {
                 WildlifeName = " Mount Kenya Conservancy",
                 WildlifeDetails = "The animal orphanage at the Mount Kenya Wildlife Conservancy is a unique facility to give orphaned, injured, neglected, abused or frightened wild animals a second chance. ",
-                WildlifeImage = "mountkenyaconservancy.png"
+                WildlifeImage = "mountkenyasconservancy.png"
 
             },
               new Wildlife()

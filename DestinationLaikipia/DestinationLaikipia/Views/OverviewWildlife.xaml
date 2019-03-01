@@ -5,10 +5,10 @@
     <ContentPage.Content>
         <StackLayout>
             <StackLayout>
-                <Image x:Name="events_front_detail_image" Aspect="AspectFill" HorizontalOptions="FillAndExpand"/>
+                <Image Source="" Aspect="AspectFill" HorizontalOptions="FillAndExpand"/>
             </StackLayout>
             <StackLayout Padding="7, 0, 7, 0">
-                <Label FontAttributes="Bold" Text="Here is your Title" HorizontalOptions="Center"/>
+                <Label FontAttributes="Bold" Text="" HorizontalOptions="Center"/>
                 <Label HorizontalTextAlignment="Center" Text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. " HorizontalOptions="Center"/>
             </StackLayout>
 
@@ -31,7 +31,7 @@
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
-                        <Image Source="ic_phone.png" Grid.Row="1" Grid.Column="0" HorizontalOptions="Center"/>
+                        <Image Source="ic_phone.p" Grid.Row="1" Grid.Column="0" HorizontalOptions="Center"/>
                         <Label Text="Phone.No" Grid.Row="0" Grid.Column="0" HorizontalOptions="Center"/>
                     </Grid>
                     <Grid Grid.Row="0" Grid.Column="1">
@@ -53,8 +53,7 @@
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
-                        <Image Source="ic_date.png" Grid.Row="1" Grid.Column="0" HorizontalOptions="Center"/>
-                        <Label Text="Email" Grid.Row="0" Grid.Column="0" HorizontalOptions="Center"/>
+                        
 
                     </Grid>
                 </Grid>

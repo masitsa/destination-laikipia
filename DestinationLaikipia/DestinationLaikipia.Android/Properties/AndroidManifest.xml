@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname" android:installLocation="auto">
 	<uses-sdk android:targetSdkVersion="27" android:minSdkVersion="21" />
-<<<<<<< HEAD
+
 	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 	<uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
@@ -12,7 +12,7 @@
 	<application android:label="Destination Laikipia">
 		<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyBTdR6Yy2lbB_4Osmvcm8PRWuCqqWYokB4" />
 	</application>
-=======
+  
   <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
   <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
@@ -23,5 +23,5 @@
 	<application android:label="Destination Laikipia" android:icon="@mipmap/ic_launcher_icon">
     <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyBTdR6Yy2lbB_4Osmvcm8PRWuCqqWYokB4" />
   </application>
->>>>>>> b5430268314ef77aa0288526bb5b6c7d6e927a71
+
 </manifest>
