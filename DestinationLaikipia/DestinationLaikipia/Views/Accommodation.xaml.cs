@@ -18,7 +18,7 @@ namespace DestinationLaikipia.Views
            
 			InitializeComponent();
             vm = new AccommodationViewModel();
-            // listAccommodations.ItemsSource = vm.Accommodations;
+
             BindingContext = vm;
 			primary_accommodation_image.Source = ImageSource.FromResource("DestinationLaikipia.Assets.Images.nanyuki_scenary.jpg");
 

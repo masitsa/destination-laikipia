@@ -5,6 +5,5 @@
              x:Class="DestinationLaikipia.Views.EventsLocation">
     
     <maps:Map x:Name="locationsMap" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
-    
-           
+
 </ContentPage>
