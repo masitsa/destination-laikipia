@@ -4,9 +4,61 @@
              x:Class="DestinationLaikipia.Views.OverviewWildlife">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <StackLayout>
+                <Image x:Name="events_front_detail_image" Aspect="AspectFill" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout Padding="7, 0, 7, 0">
+                <Label FontAttributes="Bold" Text="Here is your Title" HorizontalOptions="Center"/>
+                <Label HorizontalTextAlignment="Center" Text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. " HorizontalOptions="Center"/>
+            </StackLayout>
+
+            <StackLayout Padding="0, 10, 0, 0">
+                <Grid HorizontalOptions="Center" ColumnSpacing="8">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Row="0" Grid.Column="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="ic_phone.png" Grid.Row="1" Grid.Column="0" HorizontalOptions="Center"/>
+                        <Label Text="Phone.No" Grid.Row="0" Grid.Column="0" HorizontalOptions="Center"/>
+                    </Grid>
+                    <Grid Grid.Row="0" Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="ic_email.png" Grid.Row="1" Grid.Column="0"  VerticalOptions="Center"/>
+                        <Label Text="Date" Grid.Row="0" Grid.Column="0" HorizontalOptions="Center"/>
+                    </Grid>
+                    <Grid Grid.Row="0" Grid.Column="2">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="ic_date.png" Grid.Row="1" Grid.Column="0" HorizontalOptions="Center"/>
+                        <Label Text="Email" Grid.Row="0" Grid.Column="0" HorizontalOptions="Center"/>
+
+                    </Grid>
+                </Grid>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
