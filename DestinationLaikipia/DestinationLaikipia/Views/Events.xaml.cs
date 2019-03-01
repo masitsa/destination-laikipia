@@ -38,8 +38,7 @@ namespace DestinationLaikipia.Views
 			events_front_tap.Tapped += (s, e) =>
 			{
 				// App.Current.MainPage = MyContentPage;
-				App.Current.MainPage = new NavigationPage();
-				App.Current.MainPage.Navigation.PushAsync(new EventsSingleView());
+				Navigation.PushAsync(new EventsSingleView());
 			};
 			events_front_image.GestureRecognizers.Add(events_front_tap);
 		}
@@ -51,8 +50,7 @@ namespace DestinationLaikipia.Views
 			events_one_tap.Tapped += (s, e) =>
 			{
 				// App.Current.MainPage = MyContentPage;
-				App.Current.MainPage = new NavigationPage();
-				App.Current.MainPage.Navigation.PushAsync(new EventsSingleView());
+				Navigation.PushAsync(new EventsSingleView());
 			};
 			events_one_image.GestureRecognizers.Add(events_one_tap);
 		}
@@ -64,8 +62,7 @@ namespace DestinationLaikipia.Views
 			events_two_tap.Tapped += (s, e) =>
 			{
 				// App.Current.MainPage = MyContentPage;
-				App.Current.MainPage = new NavigationPage();
-				App.Current.MainPage.Navigation.PushAsync(new EventsSingleView());
+				Navigation.PushAsync(new EventsSingleView());
 			};
 			events_two_image.GestureRecognizers.Add(events_two_tap);
 		}
@@ -77,8 +74,7 @@ namespace DestinationLaikipia.Views
 			events_three_tap.Tapped += (s, e) =>
 			{
 				// App.Current.MainPage = MyContentPage;
-				App.Current.MainPage = new NavigationPage();
-				App.Current.MainPage.Navigation.PushAsync(new EventsSingleView());
+				Navigation.PushAsync(new EventsSingleView());
 			};
 			events_three_image.GestureRecognizers.Add(events_three_tap);
 		}
@@ -90,8 +86,7 @@ namespace DestinationLaikipia.Views
 			events_four_tap.Tapped += (s, e) =>
 			{
 				// App.Current.MainPage = MyContentPage;
-				App.Current.MainPage = new NavigationPage();
-				App.Current.MainPage.Navigation.PushAsync(new EventsSingleView());
+				Navigation.PushAsync(new EventsSingleView());
 			};
 			events_four_image.GestureRecognizers.Add(events_four_tap);
 		}

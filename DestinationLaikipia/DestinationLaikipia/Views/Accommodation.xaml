@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DestinationLaikipia.Views.Accommodation"
-             >
+             Title="Accommodation">
     <ContentPage.Content>
         <StackLayout Spacing="5">
             <Image x:Name="primary_accommodation_image" Aspect="AspectFill"/>
